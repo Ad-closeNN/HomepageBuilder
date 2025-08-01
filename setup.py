@@ -2,8 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name = "homepagebuilder",
-    setup_requires=['setuptools_scm'],
-    use_scm_version=True,
+    #setup_requires=['setuptools_scm'],
+    #use_scm_version=True,
+    version = "0.14.8",
     author = "Nattiden",
     author_email = "lightbeacon@bugjump.net",
     url = "https://github.com/Light-Beacon/HomepageBuilder",
